@@ -119,8 +119,64 @@ $items = [
         'color' => 'preto',
         'genre' => 'masculino',
         'type'  => 'peixe'
-    ]
+    ],
+    [
+    'image' => 'https://botanic-botanic-storage.omn.proximis.com/Imagestorage/images/0/0/653fb2676d50f_bien_etre_animal_engagement_botanic_lapin.jpg',
+    'name'  => 'coelho branco',
+    'color' => 'branco',
+    'genre' => 'feminino',
+    'type'  => 'coelho'
+],
+
+[
+    'image' => 'https://thumbs.dreamstime.com/b/small-rabbit-sits-amidst-colorful-flower-field-370270167.jpg',
+    'name'  => 'coelho europeu',
+    'color' => 'marrom-acizentada',
+    'genre' => 'filhote',
+    'type'  => 'coelho'
+],
+
+[
+    'image' => 'https://blog.cobasi.com.br/wp-content/uploads/2021/01/mini-coelho-capa.png',
+    'name'  => 'coelho',
+    'color' => 'pele branca com preta',
+    'genre' => 'filhote',
+    'type'  => 'coelho'
+],
+
+[
+    'image' => 'https://i.pinimg.com/736x/9a/ef/79/9aef7931d227b14f16082a992b35f38e.jpg',
+    'name'  => 'coelho ',
+    'color' => 'castanho',
+    'genre' => 'feminina',
+    'type'  => 'coelho'
+],
+
+[
+    'name' => 'akyla',
+    'image' => 'https://us.123rf.com/450wm/flowerstock/flowerstock1604/flowerstock160400012/55483416-pequeno-coelho-ligado-grama-verde.jpg?ver=6',
+    'color' => 'coelho branco com manchas castanho',
+    'genre' => 'feminina',
+    'type'  => 'coelho'
+],
+
+[
+    'image' =>'https://st.depositphotos.com/2364469/56328/i/450/depositphotos_563283192-stock-photo-cute-little-rabbit-green-grass.jpg',
+    'name'  => 'coelho',
+    'color' => 'pelagem castanho claro',
+    'genre' => 'feminina',
+    'type'  => 'coelho'
+],
+[
+    'image' =>'https://cobasiblog.blob.core.windows.net/production-ofc/2022/10/nomes-para-coelhos-femea.webp',
+    'name'  => 'coelho',
+    'color' => 'pelagem castanho claro',
+    'genre' => 'feminina',
+    'type'  => 'coelho'
+]
 ];
+
+
 
 
 

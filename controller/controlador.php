@@ -5,6 +5,10 @@ $active = [
   "cachorros" => "",
   "gatos" => "", 
   "peixes" => "", 
+  "coelho" => ""
+
+
+
 
 ];
 
@@ -53,7 +57,19 @@ function peixesPage(){
 
     include "./include/layout.php";
 
+  }
+    function coelhosPage(){
+      global $items, $active;
+     $active['coelho'] = "active";
+     $banner = "https://thumbs.dreamstime.com/b/small-rabbit-sits-amidst-colorful-flower-field-370270167.jpg";
+     $title = "coelho";
+    $content = array_filter($items,function($animal){
+     return $animal['type'] == "coelho";
+     });
+   include "./include/layout.php";
+
 }
+
 
 function pesquisaPage(){
       global $items;

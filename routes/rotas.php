@@ -16,14 +16,18 @@ else if ($URL == "/canil/cachorros"){
 else if ($URL == "/canil/peixes"){
     peixespage();
 }
-else if ($URL == "/canil/pesquisa"){
+
+else if ($URL == "/canil/coelhos"){
+     coelhospage();
+ }
+
+else if ($URL == "/canil/pesquisa?nome"){
      pesquisapage();
 }
 
 else if ($URL == "/canil/pesquisa?nome"){
      pesquisapage();
 }
-
 
 else{
     echo "NOT FOUND!!";
